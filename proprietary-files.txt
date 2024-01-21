@@ -1,8 +1,4 @@
 # Dolby - from sweet-user-12-RKQ1.210614.002-V13.0.4.0.SKFMIXM-release-keys
-system_ext/etc/permissions/privapp-com.dolby.daxservice.xml
-system_ext/etc/sysconfig/config-com.dolby.daxservice.xml
-system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml
--system_ext/priv-app/daxService/daxService.apk
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
 vendor/etc/media_codecs_dolby_audio.xml
@@ -18,10 +14,6 @@ vendor/lib64/libstagefrightdolby.so
 
 # Oneplus Dolby - from OnePlus8 qssi-user-11-RP1A.201005.001-2110102308-release-keys
 system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
-system_ext/etc/permissions/privapp-com.dolby.daxappui.xml|b783016728b17eadfcdad662ccaf546afbeab856
-system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|43c610f41061f49959ce07b26c60427b8767e535
--system_ext/priv-app/DaxUI/DaxUI.apk
-vendor/etc/dolby/dax-default.xml|5cc5d511e942db26039c65db6bf42fa6740130a6
 vendor/lib/libdapparamstorage.so|98e3c70e8081d25afb75da1fe7718bce9217418b
 vendor/lib/libdeccfg.so|f5b4f08095a0abd995ad74306bff1f5079c93452
 vendor/lib/soundfx/libeffectproxy.so|18b81b931c2ec59d848a97d12d903957bf560592
