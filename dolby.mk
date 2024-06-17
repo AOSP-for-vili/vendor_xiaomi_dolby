@@ -1,4 +1,4 @@
-DOLBY_BLOBS_PATH := vendor/xiaomi/dolby
+DOLBY_BLOBS_PATH := vendor/xiaomi/dolby/sweet
 
 PRODUCT_SOONG_NAMESPACES += \
     $(DOLBY_BLOBS_PATH)/products
