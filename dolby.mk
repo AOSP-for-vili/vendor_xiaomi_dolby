@@ -53,8 +53,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.dolby.ds2.enabled=true \
     vendor.audio.dolby.ds2.hardbypass=false
 
-# DolbyManager
+# Dolby Interface
 PRODUCT_PACKAGES += \
-    DolbyManager
+    XiaomiDolby
 
 $(call inherit-product, vendor/xiaomi/dolby/dolby-vendor.mk)
