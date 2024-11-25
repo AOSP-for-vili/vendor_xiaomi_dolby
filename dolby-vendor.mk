@@ -9,7 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dolby/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
 
 PRODUCT_PACKAGES += \
-    vendor.dolby.hardware.dms@2.0 \
+    vendor.dolby.hardware.dms@2.0-system \
     libdapparamstorage \
     libdeccfg \
     libstagefright_soft_ac4dec \
