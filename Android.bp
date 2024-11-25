@@ -9,7 +9,8 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.dolby.hardware.dms@2.0",
+	name: "vendor.dolby.hardware.dms@2.0-system",
+	stem: "vendor.dolby.hardware.dms@2.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
