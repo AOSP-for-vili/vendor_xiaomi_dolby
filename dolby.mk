@@ -45,6 +45,8 @@ PRODUCT_COPY_FILES += \
     $(DOLBY_PATH)/configs/media/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
 
 # Dolby props
+TARGET_USES_DOLBY := true
+
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.dolby.dax.version=DAX3_3.6.1.6_r1 \
     ro.vendor.audio.dolby.dax.support=true \
